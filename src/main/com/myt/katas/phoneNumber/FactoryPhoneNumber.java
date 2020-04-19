@@ -1,6 +1,6 @@
-package com.myt.kata;
+package main.com.myt.katas.phoneNumber;
 
-public class PhoneNumber {
+public class FactoryPhoneNumber {
     public static String createPhoneNumber(int[] numbers) {
 
         StringBuilder phoneNumber = new StringBuilder();
