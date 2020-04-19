@@ -9,7 +9,6 @@ class FactoryPhoneNumberTest {
     @Test
     public void display_number_valid_input() {
         Assertions.assertEquals("(123) 456-7890", FactoryPhoneNumber.createPhoneNumber(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}));
-        int[] ints = new int[]{1,2,4};
     }
 
     @Test
